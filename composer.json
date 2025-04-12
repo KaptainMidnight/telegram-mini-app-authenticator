@@ -12,5 +12,10 @@
             "name": "Aleksandr Artemkin"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.2"
+    }
 }

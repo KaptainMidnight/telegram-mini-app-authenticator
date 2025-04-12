@@ -7,6 +7,11 @@
             "Kaptainmidnight\\TelegramMiniAppAuthenticator\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "KaptainMidnight\\TelegramAuthenticator\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Aleksandr Artemkin"
@@ -17,5 +22,8 @@
     },
     "require-dev": {
         "orchestra/testbench": "^10.2"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
     }
 }

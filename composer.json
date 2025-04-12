@@ -1,0 +1,16 @@
+{
+    "name": "kaptainmidnight/telegram-mini-app-authenticator",
+    "description": "The authenticator for telegram mini apps",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kaptainmidnight\\TelegramMiniAppAuthenticator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr Artemkin"
+        }
+    ],
+    "require": {}
+}

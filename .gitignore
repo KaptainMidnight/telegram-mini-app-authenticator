@@ -1,0 +1,6 @@
+/.idea
+/.vscode
+/.fleet
+.env
+.env.production
+.env.backup
